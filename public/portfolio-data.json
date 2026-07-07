@@ -1,135 +1,97 @@
 {
   "personal": {
-    "name": "Riya Tiwari",
-    "role": "Full-Stack Developer",
-    "summary": "Crafting digital experiences with clean code and creative solutions. Passionate about building scalable applications and delivering exceptional user experiences.",
-    "email": "riya.tiwari@example.com",
-    "phone": "+91 98765 43210",
-    "location": "Delhi, India"
+    "name": "SAURAV SHANKAR",
+    "role": "Computer Science undergraduate",
+    "summary": "SAURAV SHANKAR is a Computer Science undergraduate specializing in Data Analytics with a strong foundation in Python, SQL, and C++. He is experienced in building projects under tight deadlines through hackathons and is eager to apply analytical skills and technical knowledge to solve real-world data problems. He is a skilled developer with a strong passion for data analysis and problem-solving.",
+    "email": "sauravshankar2911@gmail.com",
+    "phone": "+91 8595767831",
+    "location": "New Delhi, Delhi"
   },
   "about": {
     "paragraphs": [
-      "I'm a full-stack developer based in Delhi with 6+ years of experience designing and shipping production-grade web applications — from pixel-perfect interfaces to robust, scalable backends. I love turning ambiguous problems into clean, well-tested code that real people use every day.",
-      "My work spans TypeScript, modern frontend frameworks, distributed backend systems, and cloud infrastructure. I care deeply about developer experience, product quality, accessibility, and building things that feel genuinely useful rather than merely novel."
+      "SAURAV SHANKAR is a Computer Science undergraduate specializing in Data Analytics with a strong foundation in Python, SQL, and C++. He is experienced in building projects under tight deadlines through hackathons and is eager to apply analytical skills and technical knowledge to solve real-world data problems. He is a skilled developer with a strong passion for data analysis and problem-solving."
     ]
   },
-  "experience": [
-    {
-      "company": "Flipkart Internet Pvt. Ltd.",
-      "role": "Senior Full-Stack Engineer",
-      "duration": "2023 — Present",
-      "location": "Bengaluru · Hybrid",
-      "achievements": [
-        "Led migration of the seller dashboard monolith to event-driven services, cutting p95 latency by 38%",
-        "Mentored a team of 5 engineers through design reviews, pairing, and quarterly OKRs",
-        "Architected a multi-tenant billing engine processing 2M+ invoices monthly"
-      ]
-    },
-    {
-      "company": "Zomato",
-      "role": "Full-Stack Developer",
-      "duration": "2020 — 2023",
-      "location": "Gurugram",
-      "achievements": [
-        "Built a real-time analytics dashboard used by 12k daily active restaurant partners",
-        "Designed a GraphQL gateway consolidating 6 REST APIs into a unified schema",
-        "Reduced infrastructure spend by 27% through caching and database query tuning"
-      ]
-    },
-    {
-      "company": "Paytm",
-      "role": "Software Engineer",
-      "duration": "2018 — 2020",
-      "location": "Noida",
-      "achievements": [
-        "Shipped customer-facing features across React, Node.js, and PostgreSQL",
-        "Introduced an end-to-end testing pipeline that cut production regressions by 60%",
-        "Owned the internal design system used across 4 payment products"
-      ]
-    }
-  ],
+  "experience": [],
   "projects": [
     {
-      "title": "BharatCart",
-      "description": "A headless storefront for small Indian merchants with UPI checkout, GST invoicing, and a Hindi/English CMS.",
-      "tags": ["Next.js", "TypeScript", "Razorpay", "PostgreSQL"],
-      "year": "2025"
-    },
-    {
-      "title": "Chai Studio",
-      "description": "A drag-and-drop portfolio builder that lets developers ship theme-able sites from a single JSON config.",
-      "tags": ["React", "DnD Kit", "Vite", "Tailwind"],
+      "title": "LegalKlarity",
+      "description": "Developed a Python-based content analysis microservice utilizing Generative AI to process and demystify complex legal jargon, directly addressing information asymmetry for non-expert users. Architected an NLP pipeline that extracts and summarizes critical clauses to help users identify potential financial risks in contracts. Integrated a Firebase database to store processed document insights, enabling fast retrieval and analysis of user queries.",
+      "tags": [
+        "Python",
+        "Google Cloud GenAI",
+        "NLP",
+        "Firebase"
+      ],
       "year": "2024"
     },
     {
-      "title": "MetroMate",
-      "description": "A Delhi Metro-aware commute planner with realtime train delays, crowd heatmaps, and offline-first sync.",
-      "tags": ["React Native", "WebSockets", "IndexedDB", "Node.js"],
+      "title": "SwacchSetu",
+      "description": "Engineered a sustainable supply chain platform connecting waste generators with composters, utilizing the OpenCage Geocoding API to perform proximity-based spatial analysis for optimized pickup logistics. Designed and implemented a normalized MySQL database schema to manage complex relationships between households, businesses, and farmers, ensuring data integrity for order tracking. Built the backend logic to track and visualize waste diversion metrics, creating a data-driven circular economy model that quantifies organic waste recycling efficiency.",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "MySQL",
+        "OpenCage Geocoding API"
+      ],
       "year": "2024"
-    },
-    {
-      "title": "Sahayak AI",
-      "description": "A conversational assistant for government scheme discovery, streaming LLM responses in 11 Indian languages.",
-      "tags": ["Next.js", "OpenAI", "Edge Runtime", "Redis"],
-      "year": "2025"
-    },
-    {
-      "title": "Vidya LMS",
-      "description": "Multi-tenant learning platform for coaching institutes — courses, quizzes, live classes, and progress tracking.",
-      "tags": ["Remix", "Prisma", "PostgreSQL", "AWS"],
-      "year": "2023"
     }
   ],
   "skills": [
     {
-      "category": "Frontend",
-      "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"]
+      "category": "Languages",
+      "items": [
+        "Python",
+        "SQL",
+        "C++",
+        "JavaScript"
+      ]
+    },
+    {
+      "category": "Libraries",
+      "items": [
+        "NumPy",
+        "Pandas",
+        "Matplotlib"
+      ]
     },
     {
       "category": "Backend",
-      "items": ["Node.js", "Express", "tRPC", "GraphQL", "Python", "Go"]
+      "items": [
+        "Flask",
+        "FastAPI"
+      ]
     },
     {
-      "category": "Database",
-      "items": ["PostgreSQL", "MongoDB", "Redis", "Prisma", "SQLite"]
+      "category": "Databases & Querying",
+      "items": [
+        "MySQL",
+        "Firebase"
+      ]
     },
     {
-      "category": "Tools",
-      "items": ["Git", "Docker", "Terraform", "Postman", "VS Code", "Vitest"]
-    },
-    {
-      "category": "Cloud",
-      "items": ["AWS", "Vercel", "GCP", "Cloudflare", "GitHub Actions"]
+      "category": "Developer Tools",
+      "items": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "JetBrains IDEs"
+      ]
     }
   ],
   "education": [
     {
-      "degree": "B.Tech, Computer Science & Engineering",
-      "institution": "Indian Institute of Technology (IIT) Delhi",
-      "year": "2018",
-      "location": "New Delhi"
+      "degree": "B.Tech in Computer Science",
+      "institution": "SRM University Amravati",
+      "year": "2028",
+      "location": ""
     }
   ],
   "certifications": [
     {
-      "title": "AWS Certified Solutions Architect — Associate",
-      "issuer": "Amazon Web Services",
-      "date": "2024"
-    },
-    {
-      "title": "Professional Scrum Master I (PSM I)",
-      "issuer": "Scrum.org",
-      "date": "2023"
-    },
-    {
-      "title": "Google Cloud Associate Engineer",
-      "issuer": "Google Cloud",
-      "date": "2022"
-    },
-    {
-      "title": "Meta Front-End Developer Professional Certificate",
-      "issuer": "Meta",
-      "date": "2021"
+      "title": "MongoDB Certified: Associate Developer & Associate Data Modeler",
+      "issuer": "MongoDB",
+      "date": "2026-04-01"
     }
   ]
 }
